@@ -10,7 +10,7 @@ That is very straightforward:
     thread_pool_t *thread_pool = thread_pool_create((int)min_thread_count, (int)max_thread_count);
     thread_pool->run(thread_pool, (void*)function_p, (void*)private_data_p);
 
-## compile and run example
+## Compile and run example
 For Compile:
   
     make
